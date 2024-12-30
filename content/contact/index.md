@@ -8,10 +8,11 @@ menu:
         weight: -50
 ---
 
-you found me!
+secret easter egg found!
 
 send a message to:
 
-easteregg [at] sarah [dot] engineer
+easteregg [at] knz [dot] cx
 
 to win *absolutely nothing at all*
+

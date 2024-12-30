@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    volumes:
+      - .:/src
+    ports:
+      - "1313:1313"
+    environment:
+      - HUGO_WATCH=true
+      - HUGO_ENV=development 

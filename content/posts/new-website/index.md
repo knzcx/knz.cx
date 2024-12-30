@@ -8,7 +8,7 @@ summary: "Obligatory 'new website' post, and a quick peek at how my home page wo
 
 I decided to finally build a new website, using [Hugo][hugo-gh].
 
-I have this tendency to fall down absurd rabbitholes while working on projects like this. In this case, it involved making the [home page](https://sarah.engineer/) of my website contain a (very rough draft of a) **POSIX-like shell**. Check it out if you're a nerd like me! Just press 'enter' on the main page to activate it.
+I have this tendency to fall down absurd rabbitholes while working on projects like this. In this case, it involved making the [home page](https://knz.cx/) of my website contain a (very rough draft of a) **POSIX-like shell**. Check it out if you're a nerd like me! Just press 'enter' on the main page to activate it.
 
 ## How it's Built
 

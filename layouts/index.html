@@ -5,7 +5,7 @@
       <meta http-equiv="content-type" content="text/html; charset=utf-8">
       <link rel="canonical" href="{{ .Permalink }}" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Sarah Schulte | Software Engineer & Indie Game Dev</title>
+      <title>knz.cx | devops | docker | linux</title>
       <meta name="ahrefs-site-verification" content="3049f39cf4fc8f6d78b8df242d8d05843a3ff951f6a8ef692a7646f304314335">
       <meta name="description" content="{{ $.Site.Params.description }}" />
 
@@ -15,14 +15,14 @@
         {{ $defines := dict "process.env.NODE_ENV" "\"development\"" }}
         {{ $opts := dict "targetPath" "main.js" "externals" $externals "defines" $defines "format" "esm" }}
         {{ $built := resources.Get "js/main.js" | js.Build $opts | resources.Fingerprint }}
-        {{ $bashParser := resources.GetRemote "https://raw.githubusercontent.com/cgsdev0/bash-parser/master/compiled.js" | resources.Minify | resources.Fingerprint }}
+        {{ $bashParser := resources.GetRemote "https://raw.githubusercontent.com/knzcx/bash-parser/master/compiled.js" | resources.Minify | resources.Fingerprint }}
             <script src="{{ $bashParser.RelPermalink }}" type="text/javascript"></script>
         <script src="{{ $built.RelPermalink }}" type="text/javascript" integrity="{{ $built.Data.Integrity }}"></script>
         <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
     </head>
 
   <body class="landing-page floating" style="background-color: #434345">
-  <h1 style="position:absolute; left:-999999px; top:0px">Sarah Schulte | Software Engineer & Indie Game Dev</h1>
+  <h1 style="position:absolute; left:-999999px; top:0px">knz.cx | devops | docker | linux</h1>
 <header class="site-header big-banner" role="banner">
       <pre class="code-banner" id="banner-snippet"></pre>
       <script type="text/javascript">
@@ -102,7 +102,7 @@
       </nav>
   </div>
   <div class="hidden" id="command-output-wrapper">
-    <div class="titlebar">SarahOS
+    <div class="titlebar">cx.OS
       <div class="buttons">
         <div class="green">&#9974;</div>
         <div class="red">&#x2715;</div>

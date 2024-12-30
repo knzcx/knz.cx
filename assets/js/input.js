@@ -19,9 +19,9 @@ module.exports = (shell) => async () => {
   const container = document.querySelector("#container");
 
   const words = [
-    { color: "name", word: "sarah" },
+    { color: "name", word: "knz" },
     { color: "dot", word: "." },
-    { color: "tld", word: "engineer" },
+    { color: "tld", word: "cx" },
   ];
 
   input.value = words.map((w) => w.word).join("");

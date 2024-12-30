@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {},
-  "author": "cgsdev0",
+  "author": "knz.cx",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^2.2.1"

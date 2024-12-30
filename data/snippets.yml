@@ -43,8 +43,8 @@
   rawUrl: https://raw.githubusercontent.com/cgsdev0/bash-stack/9a43cd35702d148e1228bfb536c10f9ddf2920e4/core.sh
   
 - description: This Website
-  niceUrl: https://github.com/cgsdev0/sarah.engineer/blob/main/assets/js/commands.js
-  rawUrl: https://raw.githubusercontent.com/cgsdev0/sarah.engineer/main/assets/js/commands.js
+  niceUrl: https://github.com/knzcx/knz.cx/blob/main/assets/js/commands.js
+  rawUrl: https://raw.githubusercontent.com/knzcx/knz.cx/refs/heads/main/assets/js/commands.js
   
 - description: OBS Hold-To-Show Scene
   niceUrl: https://github.com/cgsdev0/obs-hold-to-show-scene/blob/main/hotkey-hold-scene.lua

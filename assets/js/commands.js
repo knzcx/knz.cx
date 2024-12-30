@@ -18,7 +18,7 @@ module.exports = class CommandSet {
       unalias: this.unalias,
       grep: this.grep,
       lolcat: this.colortest,
-      "sarah.engineer": this.welcome,
+      "knz.cx": this.welcome,
       cat: this.cat,
       env: this.env,
       export: this.exportVar,
@@ -60,14 +60,14 @@ module.exports = class CommandSet {
   edit = (file) => {
     const path = this.fs.getFilePath(this.shell.cwd_p, file);
     window.open(
-      "https://github.dev/cgsdev0/cgsdev0.github.io/blob/main/content" + path,
+      "https://github.dev/knzcx/hello-world/blob/main/" + path,
       "_blank"
     );
     return "Opening editor session...";
   };
   help = () => {
     const hide = [
-      "sarah.engineer",
+      "knz.cx",
       "export",
       "alias",
       "unalias",

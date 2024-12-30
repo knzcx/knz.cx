@@ -1,6 +1,6 @@
-baseURL = "https://sarah.engineer/"
+baseURL = "https://knz.cx/"
 languageCode = "en-us"
-title = "sarah.engineer"
+title = "knz.cx"
 theme = "hyde"
 enableEmoji = true
 relativeURLs = true
@@ -8,7 +8,7 @@ summaryLength = 20
 
 [params]
   themeColor = "theme-base-0d"
-  description = "full-stack software engineer • game designer • twitch streamer"
+  description = "devops • docker • linux"
 
 [mediaTypes]
 [mediaTypes."text/markdown"]
