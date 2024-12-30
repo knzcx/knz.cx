@@ -60,7 +60,7 @@ module.exports = class CommandSet {
   edit = (file) => {
     const path = this.fs.getFilePath(this.shell.cwd_p, file);
     window.open(
-      "https://github.dev/knzcx/hello-world/blob/main/" + path,
+      "https://github.dev/knzcx/knz.cx/blob/main/content" + path,
       "_blank"
     );
     return "Opening editor session...";
